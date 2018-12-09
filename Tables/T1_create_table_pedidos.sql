@@ -11,7 +11,7 @@ END
 -- Create the table in the specified schema
 CREATE TABLE dbo.Pedidos
 (
-    id INT NOT NULL PRIMARY KEY, -- primary key column
+    id INT IDENTITY PRIMARY KEY, -- primary key column
     id_cliente INT NOT NULL
     -- specify more columns here
 );

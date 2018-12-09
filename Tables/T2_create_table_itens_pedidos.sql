@@ -11,7 +11,7 @@ END
 -- Create the table in the specified schema
 CREATE TABLE dbo.Itens_de_Pedido
 (
-    id INT NOT NULL PRIMARY KEY, -- primary key column
+    id INT IDENTITY PRIMARY KEY, -- primary key column
     id_pedido INT NOT NULL,
     id_produto INT NOT NULL,
     quantidade INT NOT NULL,
